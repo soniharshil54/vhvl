@@ -1,0 +1,84 @@
+[14-Oct-2018 13:13:34 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/jack.php on line 3
+[14-Oct-2018 13:13:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 13:13:34 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 14:09:20 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/jack.php on line 3
+[14-Oct-2018 14:09:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 14:09:20 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 14:09:20 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/jack.php on line 3
+[14-Oct-2018 14:09:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 14:09:20 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 14:09:57 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/jack.php on line 3
+[14-Oct-2018 14:09:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 14:09:57 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 14:14:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/jack.php on line 3
+[14-Oct-2018 14:14:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 14:14:18 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 14:36:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/jack.php on line 3
+[14-Oct-2018 14:36:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 14:36:49 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 15:31:36 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/j03dmsqbvymv/public_html/jack.php on line 3
+[14-Oct-2018 15:33:03 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/j03dmsqbvymv/public_html/jack.php on line 3
+[14-Oct-2018 15:33:03 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/j03dmsqbvymv/public_html/jack.php on line 3
+[14-Oct-2018 15:41:38 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/j03dmsqbvymv/public_html/jack.php on line 3
+[14-Oct-2018 15:44:16 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/j03dmsqbvymv/public_html/jack.php on line 3
+[14-Oct-2018 15:44:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 15:44:16 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 15:46:50 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (2) in /home/j03dmsqbvymv/public_html/jack.php on line 3
+[14-Oct-2018 15:46:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 15:46:50 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 15:46:50 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (2) in /home/j03dmsqbvymv/public_html/jack.php on line 3
+[14-Oct-2018 15:46:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 15:46:50 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/jack.php on line 12
+[14-Oct-2018 16:57:26 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/vhvladmin.php on line 2
+[14-Oct-2018 16:57:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/vhvladmin.php on line 3
+[14-Oct-2018 16:57:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/j03dmsqbvymv/public_html/vhvladmin.php on line 31
+[14-Oct-2018 16:59:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/vhvladmin.php on line 2
+[14-Oct-2018 16:59:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/vhvladmin.php on line 3
+[14-Oct-2018 16:59:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/j03dmsqbvymv/public_html/vhvladmin.php on line 31
+[09-May-2019 18:15:10 UTC] PHP Notice:  Undefined index: name1 in /home/j03dmsqbvymv/public_html/zingat.php on line 6
+[09-May-2019 18:15:10 UTC] PHP Notice:  Undefined index: phone1 in /home/j03dmsqbvymv/public_html/zingat.php on line 7
+[09-May-2019 18:15:10 UTC] PHP Notice:  Undefined index: service1 in /home/j03dmsqbvymv/public_html/zingat.php on line 8
+[09-May-2019 18:15:10 UTC] PHP Notice:  Undefined index: subservice1 in /home/j03dmsqbvymv/public_html/zingat.php on line 9
+[09-May-2019 18:15:10 UTC] PHP Notice:  Undefined index: address1 in /home/j03dmsqbvymv/public_html/zingat.php on line 10
+[10-May-2019 12:44:48 UTC] PHP Notice:  Undefined index: subservice1 in /home/j03dmsqbvymv/public_html/zingat.php on line 9
+[06-Jul-2019 07:32:35 UTC] PHP Notice:  Undefined index: subservice1 in /home/j03dmsqbvymv/public_html/zingat.php on line 9
+[27-Oct-2019 12:58:12 UTC] PHP Notice:  Undefined index: name1 in /home/j03dmsqbvymv/public_html/zingat.php on line 6
+[27-Oct-2019 12:58:12 UTC] PHP Notice:  Undefined index: phone1 in /home/j03dmsqbvymv/public_html/zingat.php on line 7
+[27-Oct-2019 12:58:12 UTC] PHP Notice:  Undefined index: service1 in /home/j03dmsqbvymv/public_html/zingat.php on line 8
+[27-Oct-2019 12:58:12 UTC] PHP Notice:  Undefined index: subservice1 in /home/j03dmsqbvymv/public_html/zingat.php on line 9
+[27-Oct-2019 12:58:12 UTC] PHP Notice:  Undefined index: address1 in /home/j03dmsqbvymv/public_html/zingat.php on line 10
+[19-Feb-2020 00:07:41 UTC] PHP Notice:  Undefined index: name1 in /home/j03dmsqbvymv/public_html/zingat.php on line 6
+[19-Feb-2020 00:07:41 UTC] PHP Notice:  Undefined index: phone1 in /home/j03dmsqbvymv/public_html/zingat.php on line 7
+[19-Feb-2020 00:07:41 UTC] PHP Notice:  Undefined index: service1 in /home/j03dmsqbvymv/public_html/zingat.php on line 8
+[19-Feb-2020 00:07:41 UTC] PHP Notice:  Undefined index: subservice1 in /home/j03dmsqbvymv/public_html/zingat.php on line 9
+[19-Feb-2020 00:07:41 UTC] PHP Notice:  Undefined index: address1 in /home/j03dmsqbvymv/public_html/zingat.php on line 10
+[18-Jan-2021 06:36:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/careerback.php on line 3
+[18-Jan-2021 06:36:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[18-Jan-2021 06:36:00 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[18-Jan-2021 06:36:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/careerback.php on line 3
+[18-Jan-2021 06:36:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[18-Jan-2021 06:36:12 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[18-Jan-2021 06:36:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/careerback.php on line 3
+[18-Jan-2021 06:36:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[18-Jan-2021 06:36:51 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[07-Feb-2021 18:30:55 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/careerback.php on line 3
+[07-Feb-2021 18:30:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[07-Feb-2021 18:30:55 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[06-Mar-2021 10:49:28 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/careerback.php on line 3
+[06-Mar-2021 10:49:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[06-Mar-2021 10:49:28 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[06-Mar-2021 10:50:42 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/careerback.php on line 3
+[06-Mar-2021 10:50:42 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[06-Mar-2021 10:50:42 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[06-Mar-2021 10:51:24 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/careerback.php on line 3
+[06-Mar-2021 10:51:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[06-Mar-2021 10:51:24 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[25-Mar-2021 12:18:40 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/careerback.php on line 3
+[25-Mar-2021 12:18:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[25-Mar-2021 12:18:40 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[25-Mar-2021 12:18:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/careerback.php on line 3
+[25-Mar-2021 12:18:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[25-Mar-2021 12:18:58 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[14-Apr-2021 15:16:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES) in /home/j03dmsqbvymv/public_html/careerback.php on line 3
+[14-Apr-2021 15:16:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/j03dmsqbvymv/public_html/careerback.php on line 14
+[14-Apr-2021 15:16:00 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j03dmsqbvymv/public_html/careerback.php on line 14

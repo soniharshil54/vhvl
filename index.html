@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+
+
+<head>
+	<title>Vhvl Inc</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+	
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+	<style type="text/css">
+		.filter {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background:  #1b9fe7;
+      animation: colorChange 30s ease-in-out infinite;
+      animation-fill-mode: both;
+     /* mix-blend-mode: overlay;*/
+    }
+
+    @media screen and (max-widh: 600px){
+    	#canvastar {
+    		display: none;
+    	}
+    }
+    	
+    
+    
+    @keyframes colorChange {
+      0%,
+      100% {
+        opacity: 0;
+      }
+      50% {
+        opacity: .9;
+      }
+    }
+
+
+		#subme {
+			display: none;
+			font-weight: bold;
+			font-size: 22px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal"> <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<span aria-hidden="true">
+			<i class="rt-icon2-cross2"></i>
+		</span>
+	</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form form-inline" action="">
+				<div class="form-group bottommargin_0"> <input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input"> </div> <button type="submit" class="theme_button">Search</button> </form>
+		</div>
+	</div>
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+		</div>
+	</div>
+	<!-- eof .modal -->
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+
+		<div id="box_wrapper">
+			<!-- template sections -->
+			<section class="page_topline cs main_color2 table_section table_section_sm section_padding_top_5 section_padding_bottom_5">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 text-center text-sm-left">
+							<div> <i class="fa fa-clock-o rightpadding_5" aria-hidden="true"></i> Opening Hours: Mon - Sat 10.00 - 17.00 </div>
+						</div>
+						<div class="col-sm-4 text-center text-sm-right greylinks"> <span class="rightpadding_10">Follow Us:</span> <a class="social-icon color-icon soc-instagram" href="https://www.instagram.com/vhvl_inc/" title="Instagram"></a> <a class="social-icon color-icon soc-twitter" href="https://twitter.com/vhvl_inc" title="Twitter"></a> 
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<header class="page_header header_darkgrey header_transparent toggler_right section_padding_25">
+
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 display_table">
+							<div class="header_left_logo display_table_cell"> <a href="index.html" class="logo top_logo">
+                        <img height="70px" width="250px" src="images/vhvllogo.svg" alt="">
+                    </a> </div>
+							<div class="header_mainmenu display_table_cell text-right">
+								<!-- main nav start -->
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu">
+										<li class="active"> <a style="z-index: 99999" href="index.html">Home</a>
+											
+										</li>
+										
+										<li> <a href="about.html">About us</a></li>
+										<li><a href="products.html">Products</a></li>
+										<li> <a href="csr.html">CSR</a></li>
+										<li> <a href="careers.html">Careers</a></li>
+										
+											
+									
+										<li> <a href="contact.html">Contact us</a>
+											
+										</li>
+										
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+								<!-- header toggler --><span class="toggle_menu"><span></span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ls ms search_form_wrapper">
+					<div class="container">
+						<div class="row columns_margin_top_20 columns_margin_bottom_20">
+							<div class="col-sm-12">
+								<div class="widget_search">
+									<form method="get" class="searchform" action="">
+										<div class="form-group margin_0"> <label class="sr-only" for="headeer-widget-search">Search for:</label> <input id="headeer-widget-search" type="text" value="" name="search" class="form-control" placeholder="Type search keyword here"> </div> <button type="submit" class="theme_button">Search</button>										</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="intro_section page_mainslider ds color" style="background-color: rgba(49,160,129,0.5);">
+
+				
+
+ 	<!-- <div class="filter"></div> -->
+
+
+				<div class="flexslider" data-dots="true" data-nav="false">
+
+					 <!-- <div style="height: 608px;width: 100%;margin: 0px;padding: 0px;" class="container">
+
+<canvas width="100%" height="612px" id="canvas"></canvas></div> -->
+		<div class="filter"></div>
+		<canvas id="canvastar" style="position: absolute;
+      animation-fill-mode: both;"></canvas> 
+
+					<ul class="slides">
+						
+						
+						<li> <img src="images/slide02.jpg" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer with_corner_border with_padding huge-padding" data-animation="slideExpandUp">
+													<h5 class="thin"> </h5>
+													<h2 style="color: #3676a0" class="highlight"> Valuing health, Valuing life </h2>
+													<p> Our mission is to build a healthier tomorrow for patients<br> with quality medicines </p><span class="bottom_corners"></span> </div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li> <img src="images/slide03.jpg" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer with_corner_border with_padding huge-padding" data-animation="slideExpandUp">
+													<h5 class="thin"> We are dedicated to the </h5>
+													<h2 style="color: #3676a0" class="highlight"> Discovery, Development &amp;<br> Commercialization </h2>
+													<p> Of innovative therapies intended to significantly improve outcomes in patients<br> suffering from life-threatening diseases. </p> <!-- <a href="pipeline.html" class="theme_button color2 inverse margin_0">
+											Discover Now
+										</a>  --><span class="bottom_corners"></span> </div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+					</ul>
+				</div>
+				<!-- eof flexslider -->
+			</section>
+			<section id="about" class="ls section_padding_top_150 section_padding_bottom_150">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="section_header"> Welcome to VHVL! </h2>
+							<p>at VHVL Inc, Our speciality branded products play an important role in helping patients, lead healthier lives. Through our company, We are dedicated to delivering quality medicines with affordable rates, to patient in need through excellence in development.</p>
+							<p>We are a pharmaceutical company focused on the discovery, development and commercialization of innovative therapies intended to improve outcomes in patients sufferings.</p>
+						</div>
+					</div>
+					<div class="row columns_margin_bottom_20">
+						<div class="col-md-4 col-sm-6">
+							<div class="teaser hover_icon with_padding big-padding with_border rounded text-center">
+								<div class="teaser_icon size_big highlight"> <i class="rt-icon2-user"></i> </div>
+								<h4 class="topmargin_20 hover-color2"><a href="contact.html">Contact us</a></h4>
+								<p class="content-3lines-ellipsis">Inquire with us for any queries related to the company. we will be glad to help you</p>
+								<p class="topmargin_30 bottommargin_0"> <a href="contact.html" class="theme_button color2 inverse min_width_button">Contact Us</a> </p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="teaser hover_icon with_padding big-padding with_border rounded text-center with_corner_border">
+								<div class="teaser_icon size_big highlight"> <i class="rt-icon2-bulb"></i> </div>
+								<h4 class="topmargin_20 hover-color2"><a href="departments.html">Our Focus</a></h4>
+								<p class="content-3lines-ellipsis"> to develop newest therapeutics.</p>
+								<p class="topmargin_30 bottommargin_0"> <a href="about.html" class="theme_button color2 min_width_button">Discover Now</a> </p> <span class="bottom_corners"></span> </div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-sm-offset-3 col-md-offset-0">
+							<div class="teaser hover_icon with_padding big-padding with_border rounded text-center">
+								<div class="teaser_icon size_big highlight"> <i class="rt-icon2-paperplane"></i> </div>
+								<h4 class="topmargin_20 hover-color2"><a href="pipeline.html">Career with us</a></h4>
+								<p class="content-3lines-ellipsis">Do you have what it takes? then contact us and send your resume. </p>
+								<p class="topmargin_30 bottommargin_0"> <a href="careers.html" class="theme_button color2 inverse min_width_button">Apply</a> </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="products" class="ds color parallax page_gallery section_padding_top_100 section_padding_bottom_150 columns_padding_25">
+				<div class="container">
+					<div class="row display_table_md">
+						<div class="col-md-6 col-md-push-6 display_table_cell_md"> <img src="images/gallery/01.jpg" alt="" class="rounded"> </div>
+						<div class="col-md-6 col-md-pull-6 display_table_cell_md">
+							<h2 class="section_header">See Our Products</h2>
+							<p class="highlight bottommargin_20"><strong>We have several products for your need. take a look at our products</strong></p>
+							<p>We are known for the products that work.come visit us and take a glance at our products. we spacialize in gastroentrology and diabatic products.</p>
+							<p class="topmargin_30"> <a href="products.html" class="theme_button color2 inverse">See All Products</a> </p>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+			<section id="features" class="ls section_padding_top_150 section_padding_bottom_130 columns_margin_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<h2 class="section_header">Why Choose Us?</h2> <a href="about.html" class="theme_button color2 inverse min_width_button">About Us</a> </div>
+						<div class="col-md-4 col-sm-6">
+							<div class="teaser media hover_icon">
+								<div class="media-left">
+									<div class="teaser_icon rounded main_bg_color size_small"> <i class="rt-icon2-diamond2"></i> </div>
+								</div>
+								<div class="media-body toppadding_10">
+									<h5 class="hover-color2"><a href="#">Newest Technologies</a></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="teaser media hover_icon">
+								<div class="media-left">
+									<div class="teaser_icon rounded main_bg_color size_small"> <i class="rt-icon2-cloud"></i> </div>
+								</div>
+								<div class="media-body toppadding_10">
+									<h5 class="hover-color2"><a href="#">Taking Care of Nature</a></h5>
+									<p></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="teaser media hover_icon">
+								<div class="media-left">
+									<div class="teaser_icon rounded main_bg_color size_small"> <i class="rt-icon2-tag2"></i> </div>
+								</div>
+								<div class="media-body toppadding_10">
+									<h5 class="hover-color2"><a href="#">Fair Prices</a></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="teaser media hover_icon">
+								<div class="media-left">
+									<div class="teaser_icon rounded main_bg_color size_small"> <i class="rt-icon2-cloud"></i> </div>
+								</div>
+								<div class="media-body toppadding_10">
+									<h5 class="hover-color2"><a href="#">High Customer Satisfaction</a></h5>
+									<p></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<footer class="page_footer ds color section_padding_top_100 section_padding_bottom_65 table_section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_text"> <a href="index-2.html" class="logo vertical_logo bottommargin_20">
+	                    <img height="70px" width="230px" src="images/vhvllogo.svg" alt="">
+	                </a>
+								<p>We are a pharmaceutical company focused on the discovery, development and commercialization of innovative therapies intended to improve outcomes in patients sufferings.</p>
+								<p class="darklinks"> <a class="social-icon soc-twitter" href="https://twitter.com/vhvl_inc" title="Twitter"></a> <a class="social-icon soc-instagram" href="https://www.instagram.com/vhvl_inc/" title="Twitter"></a>									 </p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_text topmargin_25">
+								<h4 class="widget-title">Contact Us</h4>
+								<div class="media">
+									<div class="media-left rightpadding_10"> <i class="fa fa-map-marker highlight" aria-hidden="true"></i> </div>
+									<div class="media-body"> VHVL INC, Plot No.198/2-C/NO.2,Ground Floor, 2ND Phase, G.I.D.C,Vapi-396195, Gujarat, India </div>
+								</div>
+								<div class="media">
+									<div class="media-left rightpadding_10"> <i class="fa fa-phone highlight" aria-hidden="true"></i> </div>
+									<div class="media-body"> 6352 905 416 </div>
+								</div>
+								<div class="media">
+									<div class="media-left rightpadding_10"> <i class="fa fa-pencil highlight" aria-hidden="true"></i> </div>
+									<div class="media-body highlight2links"> <a href="mailto:vhvl.inc302@gmail.com">vhvl.inc302@gmail.com</a> </div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6 col-xs-4">
+							<div class="widget widget_text topmargin_25">
+								<h4 class="widget-title">Pages</h4>
+								<a href="index.html"><div class="media">
+								        <div class="media-body">Home</div>
+								</div></a>
+								<a href="about.html"><div class="media">
+									<div class="media-body">About us </div>
+								</div></a>
+								<a href="products.html"><div class="media">
+									<div class="media-body">Products</div>
+								</div></a>
+								<a href="csr.html.html"><div class="media">
+									<div class="media-body">CSR</div>
+								</div></a>
+								<a href="careers.html"><div class="media">
+									<div class="media-body">Careers</div>
+								</div></a>
+								<a href="contact.html"><div class="media">
+									<div class="media-body">Contacts</div>
+								</div></a>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-8">
+							<div class="widget widget_text topmargin_25">
+								<img src="images/vhvl_inc.png">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<section class="ds color darker page_copyright section_padding_15">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p class="fontsize_12">&copy; Copyright 2018. All Rights Reserved.</p>
+							<p class="fontsize_12">Developed by <a href="http://www.zingarotech.com" >Zingaro Infotech</a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+$("#contact_form_submit").click(function() {
+var name = $("#name").val();
+var phone = $("#phone").val();
+var email = $("#email").val();
+var subject = $("#subject").val();
+var message = $("#message").val();
+var valNum = /^[0]?[789]\d{9}$/;
+// Returns successful data submission message when the entered information is stored in database.
+if ((name!="") &&(valNum.test(phone))) {
+$.post("jack.php", {
+name1: name,
+phone1: phone,
+email1: email,
+message1: message,
+subject1: subject
+}, function(data) {
+// $('#submeb').css({'display':'block'});	
+$('#form')[0].reset(); // To reset form fields
+$('#subme').css({'display':'block'});	
+});}
+});
+});
+</script>
+	<!-- eof #canvas -->
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/starint.js"></script>
+	
+	<!-- <script src="js/switcher.js"></script> -->
+</body>
+
+
+
+</html>
