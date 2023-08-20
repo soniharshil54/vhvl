@@ -1283,8 +1283,8 @@ input[type*="password"],
 /*tabs*/
 .tab-content {
 	border-radius: 0 0 3px 3px;
-	padding: 30px 20px;
-	border: 2px solid #e7eaeb;
+	padding: 0;
+	border: none;
 }
 
 .tab-content.no-border {
@@ -1337,7 +1337,7 @@ input[type*="password"],
 
 @media (min-width: 400px) {
 	.tab-content {
-		padding: 35px;
+		padding: 0px;
 	}
 }
 
@@ -15161,4 +15161,18 @@ a.color-icon.border-icon:hover {
 	.text-md-right{
 		display: none
 	}
+}
+
+.category-a {
+	font-size: 20px;
+	padding: 19px;
+}
+
+.li-content {
+	font-family: 'Special Elite', cursive;
+}
+
+.li-brand {
+	font-family: 'Sirin Stencil', cursive;
+	font-weight:bold
 }
