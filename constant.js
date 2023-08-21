@@ -73,7 +73,7 @@ const products = [
                 content:'Metoprolol Succinate XI 25/50mg Tablets',
             },
             {
-                name: 'Cilnidepin 10',
+                name: 'Cinidepin 10',
                 content:'Cilnidipine 10mg Tablets',
             },
         ],
