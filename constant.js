@@ -15,15 +15,15 @@ const products = [
                 content:'Glimepiride 2mg + Metformin Hydrochloride (SR) 500mg Tablets',
             },
             {
-                name: 'VILDAGLIPTIN 50',
+                name: 'VILDABETIC 50',
                 content:'Vildagliptin 50mg Tablets',
             },
             {
-                name: 'VILDAGLIPTIN M',
+                name: 'VILDABETIC M',
                 content:'Vildagliptin 50mg, Metformin 500mg Tablets',
             },
             {
-                name: 'VILDAGLIPTIN M FORTE',
+                name: 'VILDABETIC M FORTE',
                 content:'Vildagliptin 50mg, Metformin 1000mg',
             },
             {
