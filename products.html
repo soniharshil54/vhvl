@@ -252,7 +252,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 			</section>
 			<footer class="page_footer ds color section_padding_top_100 section_padding_bottom_65 table_section">
 				<div class="container">
@@ -343,66 +343,96 @@
 	<!-- eof #canvas -->
 	<script src="js/compressed.js"></script>
 	<script src="js/main.js"></script>
-	<script src="constant.js"></script>
+	<!-- <script src="constant.js"></script> -->
 	<script>
+		const API_BASE = "https://cpdsuiasje.execute-api.us-east-2.amazonaws.com/development";
+		function convertAToB(arrA) {
+			// Group the items in 'a' by category.
+			const grouped = arrA.sort((a, b) => a.sequence - b.sequence).reduce((acc, item) => {
+				if (!acc[item.category]) {
+					acc[item.category] = [];
+				}
+				acc[item.category].push(item);
+				return acc;
+			}, {});
+
+			// Convert the grouped object to the desired format.
+			return Object.entries(grouped).map(([categoryName, items]) => ({
+				categoryName,
+				products: items.map(item => ({
+					name: item.name,
+					content: item.content,
+				}))
+			}));
+		};
+
+
 		function populateData() {
-    const navContainer = document.querySelector('.nav-tab');
-    const tabContentContainer = document.querySelector('.tab-content');
+			const navContainer = document.querySelector('.nav-tab');
+			const tabContentContainer = document.querySelector('.tab-content');
 
-    // Clear any previous content
-    navContainer.innerHTML = '';
-    tabContentContainer.innerHTML = '';
+			// Clear any previous content
+			navContainer.innerHTML = '';
+			tabContentContainer.innerHTML = '';
 
-    products.forEach((category, index) => {
-        // Create tab navigation
-        const navItem = document.createElement('li');
-        if (index === 0) navItem.classList.add('active');
+			fetch(`${API_BASE}/product`)
+				.then(response => response.json())
+				.then(({ data }) => {
+					const productsRef = data;
+					const products = convertAToB(productsRef);
+					products.forEach((category, index) => {
+						// Create tab navigation
+						const navItem = document.createElement('li');
+						if (index === 0) navItem.classList.add('active');
 
-        const navLink = document.createElement('a');
-        navLink.className = 'category-a';
-        navLink.setAttribute('href', `#vertical-tab${index + 1}`);
-        navLink.setAttribute('role', 'tab');
-        navLink.setAttribute('data-toggle', 'tab');
-        navLink.textContent = category.categoryName;
-        navItem.appendChild(navLink);
+						const navLink = document.createElement('a');
+						navLink.className = 'category-a';
+						navLink.setAttribute('href', `#vertical-tab${index + 1}`);
+						navLink.setAttribute('role', 'tab');
+						navLink.setAttribute('data-toggle', 'tab');
+						navLink.textContent = category.categoryName;
+						navItem.appendChild(navLink);
 
-        navContainer.appendChild(navItem);
+						navContainer.appendChild(navItem);
 
-        // Create tab content
-        const tabPane = document.createElement('div');
-        tabPane.className = 'tab-pane fade';
-        if (index === 0) tabPane.classList.add('in', 'active');
-        tabPane.id = `vertical-tab${index + 1}`;
+						// Create tab content
+						const tabPane = document.createElement('div');
+						tabPane.className = 'tab-pane fade';
+						if (index === 0) tabPane.classList.add('in', 'active');
+						tabPane.id = `vertical-tab${index + 1}`;
 
-        const tabletsDiv = document.createElement('div');
-        tabletsDiv.className = 'tablets';
+						const tabletsDiv = document.createElement('div');
+						tabletsDiv.className = 'tablets';
 
-        // Add header ul
-        const headerUl = document.createElement('ul');
-        headerUl.innerHTML = `
+						// Add header ul
+						const headerUl = document.createElement('ul');
+						headerUl.innerHTML = `
             <li>No</li>
             <li>Brand</li>
             <li>Content</li>
         `;
-        tabletsDiv.appendChild(headerUl);
+						tabletsDiv.appendChild(headerUl);
 
-        category.products.forEach((product, productIndex) => {
-            const productUl = document.createElement('ul');
-            productUl.innerHTML = `
+						category.products.forEach((product, productIndex) => {
+							const productUl = document.createElement('ul');
+							productUl.innerHTML = `
                 <li data-label="No">${productIndex + 1}</li>
                 <li data-label="Brand" class="li-brand">${product.name}</li>
                 <li data-label="Content" class="li-content">${product.content}</li>
             `;
-            tabletsDiv.appendChild(productUl);
-        });
+							tabletsDiv.appendChild(productUl);
+						});
 
-        tabPane.appendChild(tabletsDiv);
-        tabContentContainer.appendChild(tabPane);
-    });
-}
+						tabPane.appendChild(tabletsDiv);
+						tabContentContainer.appendChild(tabPane);
+					});
+				});
 
-// Call the function after the page loads
-document.addEventListener('DOMContentLoaded', populateData);
+
+		}
+
+		// Call the function after the page loads
+		document.addEventListener('DOMContentLoaded', populateData);
 
 	</script>
 	<!-- <script src="js/switcher.js"></script> -->
